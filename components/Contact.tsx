@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { SectionHeading } from "./index";
 import SubmitBtn from "./SubmitBtn";
 import { useSectionInView } from "@/lib/hooks";
