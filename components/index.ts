@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import ThemeSwitch from "./ThemeSwitch";
 
 
+
 export {
     About,
     Header,
@@ -25,5 +26,5 @@ export {
     Experience,
     Contact,
     ThemeSwitch,
-    
+  
 }
