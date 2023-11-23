@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <section
       ref={ref}
-      className="mb-28 max-w-[45rem] leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] leading-8 sm:mb-40 scroll-mt-40"
       id="projects"
 
     >

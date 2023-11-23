@@ -16,10 +16,10 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      className="mb-28 max-w-[90rem] sm:mb-40 scroll-mt-[100rem] sm:flex sm:justify-between sm:items-center sm:flex-row-reverse sm:gap-12 sm:pt-24"
+      className="mb-28 max-w-[90rem] sm:mb-0 md:max-h-[1024px] max-h-[750px] h-[900px] sm:h-screen scroll-mt-[100rem] md:flex md:justify-between md:items-center md:flex-row-reverse md:gap-12"
       id="home"
     >
-      <div className="flex items-center sm:items-start justify-center h-40 sm:h-80 w-auto sm:w-80 ">
+      <div className="flex items-center sm:items-start justify-center h-40 md:h-80 w-auto md:w-80 mb-10 ">
         <div>
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              className="h-40 sm:h-60 w-40 sm:w-60 rounded-full border-[0.3rem] border-white object-cover shadow-xl"
+              className="h-40 md:h-60 w-40 md:w-60 rounded-full border-[0.3rem] border-white object-cover shadow-xl"
               src="/img_pers_back.png"
               alt="Julian Agüero portrait"
               width="192"
@@ -43,7 +43,7 @@ export default function Intro() {
       </div>
       <div>
         <motion.h1
-          className="mb-10 max-w-[40rem] mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
+          className="mb-10 max-w-[40rem] mt-4 px-10 text-2xl font-medium !leading-[1.5] sm:text-2xl"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -55,7 +55,7 @@ export default function Intro() {
         </motion.h1>
 
         <motion.div
-          className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+          className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 px-4 text-lg font-medium"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
@@ -95,6 +95,8 @@ export default function Intro() {
           </a>
         </motion.div>
       </div>
+      <div className="absolute top-0 left-0 right-0 md:max-h-[1024px] max-h-[900px] h-[900px] sm:h-screen bg-slate-500/80 -z-30 bg-fixed"/>
+
     </section>
   );
 }
