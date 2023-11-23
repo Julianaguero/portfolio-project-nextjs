@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { SectionHeading } from "./index";
 import SubmitBtn from "./SubmitBtn";
 import { useSectionInView } from "@/lib/hooks";
@@ -10,6 +10,8 @@ import toast from "react-hot-toast"
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.5);
+
+
 
   return (
     <motion.section
@@ -32,14 +34,16 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
+          
           const { error } = await sendEmail(formData);
-
+          
           if (error) { 
             toast.error( error );
             return;
           }
 
           toast.success("Email sent Successfully!")
+          document.querySelector("form")?.reset()
         }}
       >
         <input
