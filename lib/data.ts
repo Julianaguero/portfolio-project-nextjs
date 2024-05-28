@@ -73,7 +73,7 @@ export const projectsData = [
     title: "Car Hub",
     description:
       "Developed a Next.js application, consuming data from two different APIs. It has features like integrated pagination, filtering, and search functionality.",
-    tags: ["Next.js", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "TailwindCSS"],
     imageUrl: carshowcaseImg,
     url: "https://jaguero-carshowcase.netlify.app/"
   },
@@ -81,7 +81,7 @@ export const projectsData = [
     title: "SocialApp",
     description:
       "A pinterest clone. I use Sanity.io as DB for user and pictures, login with Google OAuth 2.0. Fully functional.",
-    tags: ["Next.js", "Sanity.io", "Tailwind"],
+    tags: ["Next.js", "Sanity.io", "TailwindCSS"],
     imageUrl: socialappImg,
     url: "https://jaguero-socialapp.netlify.app/"
   },
