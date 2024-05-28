@@ -65,22 +65,25 @@ export const projectsData = [
     title: "RUN THE CODE",
     description:
       "I worked as a full-stack developer on this startup project for 2 months. A sneaker store e-commerce.",
-    tags: ["React", "Next.js", "MySQL", "Tailwind", "Python"],
+    tags: ["HTML", "CSS", "MySQL" ,"Javascript", "Python", "Django"],
     imageUrl: runthecodeImg,
+    url: "http://runthecode.netlify.app"
   },
   {
     title: "Car Hub",
     description:
       "Developed a Next.js application, consuming data from two different APIs. It has features like integrated pagination, filtering, and search functionality.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: carshowcaseImg,
+    url: "https://jaguero-carshowcase.netlify.app/"
   },
   {
     title: "SocialApp",
     description:
       "A pinterest clone. I use Sanity.io as DB for user and pictures, login with Google OAuth 2.0. Fully functional.",
-    tags: ["React", "Next.js", "Sanity.io", "Tailwind"],
+    tags: ["Next.js", "Sanity.io", "Tailwind"],
     imageUrl: socialappImg,
+    url: "https://jaguero-socialapp.netlify.app/"
   },
 ] as const;
 
