@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import runthecodeImg from "@/public/img_project_sneakers_full.jpg";
+import runthecodeImg from "@/public/home-page.png";
 import carshowcaseImg from "@/public/carshowcase.jpg";
 import socialappImg from "@/public/img_project_socialApp_full.jpg";
 
@@ -65,9 +65,9 @@ export const projectsData = [
     title: "RUN THE CODE",
     description:
       "I worked as a full-stack developer on this startup project for 2 months. A sneaker store e-commerce.",
-    tags: ["HTML", "CSS", "MySQL" ,"Javascript", "Python", "Django"],
+    tags: ["React", "Typescript", "TailwindCSS" ,"Node.js", "Express", "MongoDB"],
     imageUrl: runthecodeImg,
-    url: "http://runthecode.netlify.app"
+    url: "https://runthecode-ecommerce.onrender.com/"
   },
   {
     title: "Car Hub",
